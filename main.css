@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root {
+    --greenColor: #55C97B;
+    --grayColor: #B1B1B1;
+ }
+ html,
+ body {
+   height: 100%;
+   line-height: 1;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   background:#FFFFFF;
+   overflow-x: hidden;
+ }
+
+ .container {
+    max-width: 1440px;
+    padding: 0px 7px;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+  .nav-pills .nav-link{
+    margin-top: 43px;
+  }
+ 
+  .top-header {
+    width: 100%;
+    display: flex;
+ }
+ .arrow {
+    margin: 0 5px;
+ }
+ 
+ .main {
+    font-size: 100%;
+    color: #1d1c20;
+ }
+ .photo-info{
+    margin-top: -10px;
+    margin-right: 20px;
+ }
+ .photo{
+    border-radius: 50%;
+ }
