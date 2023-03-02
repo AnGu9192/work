@@ -137,19 +137,20 @@
           </div>
 
           <div class="h-100 d-flex container-fluid mt-3">
-           <div class="container-main"> 
+           <div class="container-main "> 
                <button type="button" class="button-green"  data-bs-toggle="modal" data-bs-target="#shopModal">
-                +Создать свой магазин
+                <img src="./img/plus.svg" />
+                <span>Создать свой магазин</span>
               </button>
                <!-- Modal -->
-         <div class="modal fade" id="shopModal" tabindex="-1" aria-labelledby="shopModalLabel" aria-hidden="true">
-            <div class="modal-dialog ">
+         <div class="modal fade" id="shopModal" tabindex="-1" aria-labelledby="shopModalLabel" aria-hidden="true"   >
+            <div class="modal-dialog modal-600 modal-container"  >
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel">Создать магазин</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body model-container">
+                <div class="modal-body ">
                   <div class="container-fluid">
                     <div class="row">
                       <div class="col-md-4 input-text">
@@ -170,13 +171,13 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Например: ivangrozniy" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                          <button class="btn btn-outline-secondary" type="button">.work5.ru</button>
+                          <button class="btn btn-outline-secondary active color-btn" type="button">.work5.ru</button>
                         </div>
                       </div>
 
                       <div class="form-group">
                         <div class="input-group d-flex">
-                          <div class="input-group-addon">
+                          <div class="input-group-addon d-flex">
                             <img src="./img/warning.svg" />
                             <span class="modal-text">В названии домена разрешены латиница и “-”, запрещается использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). Подробнее по ссылке</span>
 
@@ -212,12 +213,12 @@
                       <div class="col">http://www.work5.ru/services</div>
                       <div class="col">
                         <button class="button-green">
-                          <img src="./img/pencil.svg" />Редактировать
+                          <img src="./img/pencil.svg" /><span>Редактировать</span>
                         </button>
                       </div>
                       <div class="col">
                         <button class="button-gray">
-                          <img src="./img/cansel.svg" />Редактировать
+                          <img src="./img/cansel.svg" /><span>Редактировать</span>
                         </button>
                       </div>
 
@@ -230,12 +231,12 @@
                       <div class="col">http://www.work5.ru/services</div>
                       <div class="col button">
                         <button class="button-green">
-                          <img src="./img/pencil.svg" />Редактировать
+                          <img src="./img/pencil.svg" /><span>Редактировать</span>
                         </button>
                       </div>
                       <div class="col">
                         <button class="button-gray">
-                          <img src="./img/cansel.svg" />Редактировать
+                          <img src="./img/cansel.svg" /><span>Редактировать</span>
                         </button>
                       </div>
                     </div>
@@ -249,7 +250,5 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-
-<!--     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
- -->  </body>
+ </body>
 </html>
