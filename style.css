@@ -112,7 +112,9 @@ margin-top: 35.5px;
 .container-shop{
    margin-top: 25.5px;
 }
-
+.container-main span{
+   margin-left: 7px;
+}
 @media (max-width: 1310px){
    .photo-info{
       display: flex;
@@ -216,17 +218,24 @@ margin-top: 35.5px;
 
  .modal{
   margin-top: 220px;
-  width: 617px;
-
+  margin-left: -60px;
  }
- .model-container{
+ .modal-container{
+   width: 617px;
    background: #FFFFFF;
    box-shadow: 0px 30px 38px rgba(37, 37, 37, 0.1);
-  
+   border: none;
  }
+ .modal-dialog.modal-600 {
+   width: 600px;
+   margin: 30px auto;
+}
 
 .modal-text h1{
    font-size: 12px;
+}
+.color-btn{
+   background: #6666CC;
 }
 
 
